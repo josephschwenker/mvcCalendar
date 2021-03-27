@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="calendar">
+            <div id="title">
+                <button id="previous" onclick="Controller.previous()">Previous</button>
+                <div id="date"></div>
+                <button id="next" onclick="Controller.next()">Next</button>
+            </div>
+            <div id="events">
+                <div class="event">
+                    <input id="newEvent" placeholder="New event...">
+                    <input id="addEvent" type="submit" value="Add Event" onclick="Controller.add()">
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
